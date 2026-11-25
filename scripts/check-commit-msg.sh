@@ -2,7 +2,7 @@
 # Checks that a commit subject or pull request title follows Conventional Commits.
 # Usage: check-commit-msg.sh "<subject>"
 subject=$1
-types='feat|fix|perf|refactor|test|docs|build|ci|chore'
+types='feat|fix|perf|refactor|test|docs|build|ci|chore|wip'
 scopes='parser|book|cli|bench'
 pattern="^($types)(\(($scopes)\))?: [^ ].*$"
 
