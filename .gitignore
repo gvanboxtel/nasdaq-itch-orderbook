@@ -66,3 +66,8 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+
+# Market data (kept outside the repo, ignored in case it lands here)
+*.itch
+*.itch.gz
+*.NASDAQ_ITCH50*

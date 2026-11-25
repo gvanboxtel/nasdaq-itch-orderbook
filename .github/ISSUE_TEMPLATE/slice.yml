@@ -1,0 +1,23 @@
+name: Slice
+description: One vertical slice of work, one session, one merge
+body:
+  - type: textarea
+    id: goal
+    attributes:
+      label: Goal
+      description: What works afterwards that did not before.
+    validations:
+      required: true
+  - type: textarea
+    id: criteria
+    attributes:
+      label: Acceptance criteria
+      description: Checkable, as a task list.
+      value: "- [ ] "
+    validations:
+      required: true
+  - type: textarea
+    id: readme
+    attributes:
+      label: README explanation
+      description: What to explain in your own words, if anything.
