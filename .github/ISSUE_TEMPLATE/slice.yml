@@ -2,18 +2,39 @@ name: Slice
 description: One vertical slice of work, one session, one merge
 body:
   - type: textarea
-    id: goal
+    id: context
     attributes:
-      label: Goal
-      description: What works afterwards that did not before.
+      label: Context
+      description: Why this step matters and where it sits in the whole.
     validations:
       required: true
+  - type: textarea
+    id: learn
+    attributes:
+      label: Learn first
+      description: "Sources, videos first: `- [Title](url): what it answers`."
+  - type: textarea
+    id: think
+    attributes:
+      label: Think about
+      description: "Design questions, each followed by where to find the answer: `- Question? → source`."
+  - type: textarea
+    id: tasks
+    attributes:
+      label: Tasks
+      description: "Small steps, as a task list: `- [ ] step`."
+    validations:
+      required: true
+  - type: textarea
+    id: check
+    attributes:
+      label: Check yourself
+      description: Questions to answer once it works.
   - type: textarea
     id: criteria
     attributes:
       label: Acceptance criteria
-      description: Checkable, as a task list.
-      value: "- [ ] "
+      description: "Observable checks, as a task list: `- [ ] check`."
     validations:
       required: true
   - type: textarea
@@ -21,3 +42,8 @@ body:
     attributes:
       label: README explanation
       description: What to explain in your own words, if anything.
+  - type: textarea
+    id: related
+    attributes:
+      label: Related
+      description: "`Blocked by #N. Unblocks #M.` Also set the blocked-by link and the parent epic."
