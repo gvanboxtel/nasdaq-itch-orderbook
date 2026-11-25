@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
-# Checks that a commit subject or pull request title follows Conventional Commits.
-# Usage: check-commit-msg.sh "<subject>"
+# Checks that a pull request title follows Conventional Commits.
+# Usage: check-commit-msg.sh "<title>"
 subject=$1
-types='feat|fix|perf|refactor|test|docs|build|ci|chore|wip'
+types='feat|fix|perf|refactor|test|docs|build|ci|chore'
 scopes='parser|book|cli|bench'
 pattern="^($types)(\(($scopes)\))?: [^ ].*$"
 

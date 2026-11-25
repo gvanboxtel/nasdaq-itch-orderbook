@@ -19,8 +19,7 @@ The general instructions and the mandatory part of `SUBJECT.md` (chapters III an
 
 - Everything in the repo is in English.
 - Branch: `<issue>-<slug>`, for example `12-decode-messages`.
-- Commits and pull request titles: Conventional Commits, types and scopes as listed in `scripts/check-commit-msg.sh`. Pull requests are squash-merged, so the title becomes the commit on `main`.
-- Enable the hook once per clone: `git config core.hooksPath .githooks`.
+- Pull request titles: Conventional Commits, types and scopes as listed in `scripts/check-commit-msg.sh`. Pull requests are squash-merged, so the title becomes the commit on `main`; commits on a branch are free-form.
 - Market data lives outside the repo (for example `~/data/itch/`).
 
 ## Issue tracker
