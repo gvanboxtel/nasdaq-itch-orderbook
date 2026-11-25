@@ -46,4 +46,4 @@ body:
     id: related
     attributes:
       label: Related
-      description: "Blocked by #N, related issues. Also set the blocked-by link and the parent epic."
+      description: "`Blocked by #N. Unblocks #M.` Also set the blocked-by link and the parent epic."

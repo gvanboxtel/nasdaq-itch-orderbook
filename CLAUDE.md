@@ -25,11 +25,11 @@ The general instructions and the mandatory part of `SUBJECT.md` (chapters III an
 
 ## Issue tracker
 
-GitHub issues on this repo, on the board [nasdaq-itch-orderbook](https://github.com/users/gvanboxtel/projects/10) (project 10). New issues follow the layout below; `/kanban-roadmap issue <topic>` adds one in this style.
+GitHub issues on this repo, on the board [nasdaq-itch-orderbook](https://github.com/users/gvanboxtel/projects/10) (project 10). New slices come from the issue form (Slice). `/kanban-roadmap issue <topic>` writes one in the same style; it is the author's personal skill, not part of this repo.
 
 - Columns (`Status`): Backlog, Todo, In progress, In review, Done.
-- Fields on every slice: `Size` (XS ≈ 1 h, S 1–2 h, M 2–3 h, L 3–5 h, XL > 5 h) and `Estimate (h)`.
-- Epics are issues titled `M<N>: <phase>`; every slice is a sub-issue of one. Dependencies are GitHub's blocked-by links.
+- Fields on every slice: `Size` (XS up to 1 h, S up to 2 h, M up to 3 h, L up to 5 h; XL, over 5 h, means split it) and `Estimate (h)`.
+- Epics are issues titled `M<N>: <phase>`, with Goal, Done when and Learn (background for the phase). Every slice is a sub-issue of one. Dependencies are GitHub's blocked-by links.
 - Titles are plain, without prefixes. The only label is `bug`.
-- Body sections, in order: Context, Learn first, Think about, Tasks, Check yourself, Acceptance criteria, README explanation (when SUBJECT.md asks for one), Related.
+- Body sections of a slice, in order: Context, Learn first, Think about, Tasks, Check yourself, Acceptance criteria, README explanation (when SUBJECT.md asks for one), Related. Delete the sections a slice doesn't need; the form leaves them as `_No response_`.
 - Teaching mode: Think about asks each design question with where to find the answer; Tasks and hints stop short of the solution.
